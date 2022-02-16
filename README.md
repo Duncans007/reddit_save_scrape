@@ -40,7 +40,7 @@ The Search tab contains two functions:
 - `Search` looks through all saved posts for those in any subreddit input with all keyword inputs. Opens HTML file with compiled table for ease of browsing.
   - Required Fields:
     - `Input File` (The same file created by the Update tab, autofilled)
-    - 'Output File' (HTML file for search display, autofilled)
+    - `Output File` (HTML file for search display, autofilled)
   - Optional Fields:
     - `Subreddits` (Separated by comma or space. Any post in these subreddits will be considered.)
     - `Title Keywords` (separated by comma or space. Only posts containing ALL keywords will be considered.)
