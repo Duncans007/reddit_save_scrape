@@ -2,6 +2,8 @@
 
 ReSaS is a small custom GUI for managing, updating, and searching saved links from Reddit.
 
+The GUI is built using Tkinter, while the back-end is built using all python default packages with the exception of BeautifulSoup4 for web scraping.
+
 The GUI is able to:
 - Process saved data from "saved_posts.csv" downloaded directly from Reddit.
 - Log in and scrape 1000 most recent saved posts.
