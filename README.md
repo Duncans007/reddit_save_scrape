@@ -12,7 +12,7 @@ The GUI is able to:
 ## Dependencies
 - BeautifulSoup4 (bs4)
 
-##Usage
+## Usage
 
 [update tab image](/img/img_update_tab.png)
 
