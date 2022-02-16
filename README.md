@@ -14,7 +14,7 @@ The GUI is able to:
 
 ## Usage
 
-[update tab image](/img/img_update_tab.png)
+![update tab image](/img/img_update_tab.png)
 
 The Update tab contains two functions:
 - `Process Download` reads links from "Input File" and scrapes more information about them to save for searching.
@@ -31,7 +31,7 @@ The Update tab contains two functions:
     - `Username`
     - `Password`
 
-[search tab image](/img/img_search_tab.png)
+![search tab image](/img/img_search_tab.png)
 
 The Search tab contains two functions:
 - `List Subreddits` opens a table listing top subreddits and how many saved links each has.
