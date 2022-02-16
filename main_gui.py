@@ -6,9 +6,9 @@ import re
 import os
 from webbrowser import open as openweb
 
-from process_downloaded_saved import *
-from check_new_saved import *
-from functions import *
+from lib.process_downloaded_saved import *
+from lib.check_new_saved import *
+from lib.functions import *
 
 
 def main():
@@ -73,7 +73,7 @@ def main():
         with open(output_file, "w+") as f:
 
             ##### Open setup HTML file and copy in the framework saved there
-            with open("html_setup.txt", "r") as setup:
+            with open("lib\html_setup.txt", "r") as setup:
                 setup_lines = setup.readlines()
                 for line in setup_lines:
                     f.write(line)
