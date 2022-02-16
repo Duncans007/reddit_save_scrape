@@ -1,0 +1,29 @@
+<style>
+	.tab {
+		border:1px solid #C0C0C0;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.tab th {
+		border:1px solid #C0C0C0;
+		padding:5px;
+		background:#F0F0F0;
+	}
+	.tab td {
+		border:1px solid #C0C0C0;
+		padding:5px;
+	}
+</style>
+
+<title>Saved Search Results</title>
+
+<table class="tab">
+	<thead>
+	<tr>
+		<th>Subreddit</th>
+		<th>Title</th>
+		<th>Domain</th>
+		<th>Link</th>
+	</tr>
+	</thead>
+	<tbody>
