@@ -25,6 +25,8 @@ The Update tab contains two functions:
     - `Output File` (Overwritten .csv file to store link data, autofilled)
     - `Username` (Login necessary to easily maintain cookies)
     - `Password`
+  - Optional Fields:
+    - `Process Num` (Used when program cannot finish processing download links. Insert number of last processed link for program to start on. Leave blank to start new file.)
 - `Scrape Update` reads information from user's /user/saved page directly on Reddit.com.
   - Appends any new saved posts to end of `Output File`
   - If `Output File` does not exist, it is created and the last 1000 saved posts are populated.
